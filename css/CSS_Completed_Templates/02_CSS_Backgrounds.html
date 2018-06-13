@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        .backgroundImage{
+            width: 500px;
+            background-image: url("img/background.jpg");
+            padding: 10px;
+        }
+        .imagePosition{
+            width: 800px;
+            height: 300px;
+            padding: 10px;
+            background-color: #00C851
+            background-image: url("img/nature.jpg");
+            background-position: right top;
+            background-repeat: no-repeat;
+            background: #00C851 url("img/nature.jpg") no-repeat scroll right top ;
+        }
+        .bg-attachment{
+            height: 200px;
+            background: white url("img/gallery2.jpeg") no-repeat fixed bottom;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- BACKGROUND COLOR -->
+<p style="background-color: teal">I am TEAL background</p>
+
+<!-- BACKGROUND IMAGE -->
+<div class="backgroundImage">
+    <h2>I HAve A Background Image</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus praesentium quasi sequi totam. Adipisci animi corporis culpa cum cupiditate dolores, placeat praesentium repellendus sed sequi, similique velit vero voluptas? Ab dignissimos placeat vitae voluptatibus. Aliquam consectetur dolor neque quia voluptatibus?</p>
+</div>
+<br>
+
+<!-- Background Attachment -->
+<div class="bg-attachment"></div>
+<!-- BACKGROUND IMAGE POSITION -->
+<div class="imagePosition">
+</div>
+<br>
+<!-- BACKGROUND IMAGE REPEAT -->
+<div class="imageRepeat">
+</div>
+
+</body>
+</html>

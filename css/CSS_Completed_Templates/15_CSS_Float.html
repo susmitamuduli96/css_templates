@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Float</title>
+    <style>
+        .left{
+            border: 2px solid forestgreen;
+            background-color: whitesmoke;
+            padding: 10px;
+            width: 200px;
+            float: left;
+
+        }
+
+        .right{
+            border: 2px solid forestgreen;
+            background-color: whitesmoke;
+            padding: 10px;
+            width: 200px;
+            float: right;
+
+        }
+
+        .clear{
+            clear: both; /* to clear the float effect */
+        }
+
+        h2{
+            background-color: #0b2e13;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        #news{
+            border: 2px solid black;
+            padding: 10px;
+            overflow: auto;
+        }
+        #news img{
+            float: right;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="left">
+        <h1>Float Left</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sint!</p>
+    </div>
+
+    <div class="right">
+        <h1>Float Right</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sint!</p>
+    </div>
+
+    <div class="clear">
+        <h2>clear me</h2>
+    </div>
+
+    <div id="news">
+        <img src="img/gallery2.jpeg" width="200" height="150">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aspernatur commodi consequatur consequuntur, cupiditate debitis deserunt dignissimos distinctio dolorem doloribus, eius est eum eveniet facere id impedit itaque laudantium modi molestiae neque non, optio pariatur porro possimus provident quisquam quod quos reprehenderit sunt suscipit tenetur ullam veritatis. Magnam nihil officia repellat similique veritatis? Adipisci atque corporis dicta ducimus, facilis fugiat ipsa magnam, minima molestiae quasi quia recusandae repellat sequi similique vitae? Ab eveniet fugiat in itaque perspiciatis placeat voluptates.</p>
+    </div>
+
+
+</body>
+</html>
